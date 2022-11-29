@@ -1,0 +1,53 @@
+<html>
+	
+	<head> <!-- tag di apertura -->
+		<title>saluti</title> <!-- titolo della tab -->
+	</head> <!-- tag di chiusura -->
+
+	<body>
+	
+		<h1>La carbonara</h1>  <!-- titolo paragrafo -->
+		 <!-- strong = grassetto -->
+		<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><hr></p>
+		 <!-- b = bold i = italics -->
+		<p><b>Grassetto</b>, <i>corsivo</i><br><hr></p>
+		
+	<h2>Lista degli ingredienti (lista non ordinata)</h2>
+	
+	<ul> <!-- UNORDERED LIST -->
+		<li>guanciale</li> <!-- li = list item -->
+		<li>tuorli</li> <!-- li = list item -->
+		<li>pepe</li> <!-- li = list item -->
+		<li>pecorino</li> <!-- li = list item -->
+	</ul> 
+	 <!-- style = attributo; "color:red" = valore attributo -->
+	<h2 style="color:red">Preparazione (lista ordinata)</h2>
+	
+	<ol> <!-- ORDERED LIST -->
+		<li>ut labore et dolore magna aliqua</li> <!-- li = list item -->
+		<li>quis nostrud exercitation ullamco laboris nisi</li> <!-- li = list item -->
+		<li>Duis aute irure dolor in reprehenderit in voluptate</li> <!-- li = list item -->
+		<li>Excepteur sint occaecat cupidatat non proident</li> <!-- li = list item -->
+	</ol> 
+	
+	<hr> <!-- horizontal line -->
+	
+	<!-- src = attributo source -->
+	<!-- aggiunto tag a con collegamento ipertestuale assegnato all'immagine -->
+	<a href="https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/" target="_blank"><img src="carbo.jfif" alt="piatto di carbonara"></a>
+	<hr> <!-- horizontal line -->
+	
+	<p>
+	<!-- href = attributo collegamento ipertestuale -->
+	vai alla <a href="https://blog.giallozafferano.it/dulcisinforno/spaghetti-alla-carbonara/" target="_blank">ricetta</a> di giallo zafferano
+	</p>
+	
+	<h3> Clicca sul tiramisù per aprire pagina 2</h3>
+	<a href="pagina2.html" target="_blank">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6n_6Gd9dOdvF7ujXB0cojBZeKVfj8_oX3_g&usqp=CAU">
+	</a>
+	
+	</body>
+
+	
+</html>
